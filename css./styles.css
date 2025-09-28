@@ -24,10 +24,9 @@ body {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #4d5ae5;
 }
-.logo-span-dark {
+.logo-accent {
     color: #2e2f42;
 }
 .logo-span {
@@ -69,20 +68,15 @@ body {
     color: #ffffff;
     margin-bottom: 48px;
 }
-.hero-button {
-    font-family: "Roboto", sans-serif;
+.hero-btn {
+    background-color: #4d5ae5;
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    background-color: #4d5ae5;
-    border: none;
-    border-radius: 4px;
-    padding: 16px 32px;
 }
-.hero-button:hover
-.hero-button:focus {
+    .hero-btn:hover
+.hero-btn:focus {
     background-color: #404bbf;
 }
 
@@ -121,6 +115,19 @@ body {
 
 .portfolio-item {
     background-color: #ffffff;
+}
+.portfolio-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .site-footer {
