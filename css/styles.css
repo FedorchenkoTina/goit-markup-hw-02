@@ -159,6 +159,14 @@ p {
     margin-bottom: 40px;
 }
 
+.team {
+    background-color: #f4f4fd;
+}
+
+.team-item {
+    background-color: #ffffff;
+}
+
 .team-member-title {
     font-weight: 500;
     font-size: 20px;
