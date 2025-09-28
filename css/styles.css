@@ -121,13 +121,15 @@ p {
     padding-bottom: 120px;
 }
 
-.feature-item {
-    width: 264px;
-}
-
 .features-list {
     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     gap: 24px;
+}
+
+.feature-item {
+    width: 264px;
 }
 
 .feature-title {
@@ -149,11 +151,6 @@ p {
     background-color: #f4f4fd;
 }
 
-.team-list {
-    display: flex;
-    gap: 24px;
-}
-
 .section-title {
     font-size: 36px;
     line-height: 1.11;
@@ -163,9 +160,14 @@ p {
     color: #2e2f42;
 }
 
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+
 .team-item {
     background-color: #ffffff;
-    box-shadow: 0px 1px 6px rgba(44, 47, 66, 0.08),0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 4px;
 }
 
