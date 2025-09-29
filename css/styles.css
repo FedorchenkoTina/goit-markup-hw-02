@@ -5,10 +5,8 @@ body {
 }
 
 ul,
-ol {
+li {
     list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
 a {
@@ -19,24 +17,8 @@ button {
     cursor: pointer;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
     border: 0;
-    padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -50,6 +32,7 @@ p {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
+    text-transform: uppercase;
 }
 
 .logo-accent {
@@ -90,7 +73,6 @@ p {
 .hero {
     background-color: #2e2f42;
     text-align: center;
-    padding: 188px 0;
 }
 
 .hero-title {
@@ -98,7 +80,6 @@ p {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #ffffff;
-    margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -112,24 +93,6 @@ p {
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: #404bbf;
-}
-
-.features,
-.team,
-.portfolio {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-.features-list {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 24px;
-}
-
-.feature-item {
-    width: 264px;
 }
 
 .feature-title {
@@ -160,15 +123,8 @@ p {
     color: #2e2f42;
 }
 
-.team-list {
-    display: flex;
-    gap: 24px;
-}
-
 .team-item {
     background-color: #ffffff;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 4px;
 }
 
 .team-member-title {
@@ -184,12 +140,6 @@ p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
-
-.portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
 }
 
 .portfolio-item {
@@ -213,7 +163,6 @@ p {
 
 .site-footer {
     background-color: #2e2f42;
-    padding: 100px 0;
 }
 
 .footer-text {
